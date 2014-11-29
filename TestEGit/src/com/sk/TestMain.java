@@ -14,4 +14,8 @@ public class TestMain implements Mobiles {
 		System.out.println("override showMobs() in main !!");
 	}
 
+	public void showMobSpecs() {
+		System.out.println("override showMobSpecs() in main !!");
+	}
+
 }
