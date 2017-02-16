@@ -7,7 +7,7 @@ public class TestMain implements Mobiles {
 	public static void main(String[] args) {
 		TestMain tm = new TestMain();
 		tm.showMobs();
-		tm.getWarrenty(500);
+		tm.getWarrenty(1024);
 	}
 
 	public void showMobs() {
@@ -20,7 +20,7 @@ public class TestMain implements Mobiles {
 
 	@Override
 	public void getWarrenty(int mobId) {
-		System.out.println("override getWarrenty with handset id: "+mobId);
+		System.out.println("Get implicit getWarrenty with handset id: "+mobId);
 	}
 
 }
