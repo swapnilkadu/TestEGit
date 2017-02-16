@@ -7,7 +7,7 @@ public class TestMain implements Mobiles {
 	public static void main(String[] args) {
 		TestMain tm = new TestMain();
 		tm.showMobs();
-		tm.getWarrenty(1001);
+		tm.getWarrenty(500);
 	}
 
 	public void showMobs() {
